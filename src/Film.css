@@ -1,0 +1,32 @@
+div {
+    float: left;
+    margin: 5px;
+}
+
+.Film {
+    clear: both;
+    border: 1px solid black;
+}
+
+.nazwa {
+    font-weight: bold;
+}
+
+.typ {
+    font-style: italic;
+}
+
+.godzina {
+    background-color: lightgray;
+    font-weight: bold;
+    padding: 4px;
+    border: 1px solid gray;
+}
+
+.premiera {
+    background-color: brown;
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+}
