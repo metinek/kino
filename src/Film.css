@@ -6,6 +6,7 @@ div {
 .Film {
     clear: both;
     border: 1px solid black;
+    width: 100%;
 }
 
 .nazwa {
@@ -16,11 +17,31 @@ div {
     font-style: italic;
 }
 
+
+.obrazek {
+    width: 25%;
+    margin-right: 20px;
+}
+
+.nazwaTyp {
+    width: 30%;
+}
+
+
+.godziny {
+    width: 30%;
+    float: right;
+}
+
+
+
 .godzina {
     background-color: lightgray;
     font-weight: bold;
     padding: 4px;
     border: 1px solid gray;
+    width: 40px;
+    float: right;
 }
 
 .premiera {
@@ -29,4 +50,30 @@ div {
     color: white;
     border-radius: 10px;
     font-weight: bold;
+
+
+    width: 15%;
+    text-align: center;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+.studyjny {
+    background-color: #5c5c8d;
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+
+
+    width: 15%;
+    text-align: center;
+    float: right; 
 }

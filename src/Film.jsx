@@ -9,7 +9,8 @@ function Film(props) {
             <p className='typ'>{props.typ}</p>
         </div>
 
-            { props.premiera ? <div className='premiera'>PREMIERA</div> : null }
+            { props.premiera ? <><div className='premiera'>PREMIERA</div><br></br><br></br></> : null }
+            { props.studyjny ? <><div className='studyjny'>STUDYJNY</div><br></br></> : null }
 
 
 
